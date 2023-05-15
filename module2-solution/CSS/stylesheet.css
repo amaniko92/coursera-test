@@ -1,3 +1,55 @@
-.h1 {
-    color: red;
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins, sans-serif;}
+
+h1{
+    font-family: 'Abril Fatface', serif;
+    color: midnightblue;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+section{
+    background-color: lightgrey;
+    border: 2px solid black;
+    outline: black solid 1px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+#title1 , #title2 , #title3 {
+    float: right;
+    width: 20%;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+}
+
+p{
+    padding: 20px;
+    clear: right;
+}
+
+
+#title1{
+    outline: black solid;
+    background-color: rgb(186, 186, 48);
+}
+
+#title2{
+    outline: black solid;
+    background-color: rgb(84, 174, 72);
+}
+
+#title3{
+    outline: black solid;
+    background-color: rgb(219, 31, 160);
 }
